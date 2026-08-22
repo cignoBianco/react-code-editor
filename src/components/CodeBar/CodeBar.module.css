@@ -11,7 +11,7 @@
     height: 70px;
     padding: 0 15px;
     gap: 15px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #363636;
 }
 
 .item {
@@ -33,4 +33,9 @@
 .activeTab {
     background: #c0a50e;
     color: white;
+}
+
+.editor {
+    height: calc(100% - 70px);
+    padding: 10px;
 }
